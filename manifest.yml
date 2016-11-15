@@ -1,0 +1,11 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: lucy-liberty-watson
+  host: lucy-liberty-watson
+  disk_quota: 1024M
+  services:
+  - AlchemyAPI-5q
+  - lucy-liberty-watson-cloudantNoSQLDB
